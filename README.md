@@ -31,15 +31,6 @@ Medoo-MVC是一个基于Medoo的简单的mvc框架，如果之前使用过Medoo�
 
 自己添加的扩展类放到"/lib/class/"，之后就可在程序中实例化使用该扩展类。
 
-## 详细介绍
-
-参考：http://www.xuhaixiao.com/medoo-mvc/
-
-## Medoo-MVC实例
-
-基于Medoo-MVC开发的开源项目 shop72hour ：http://www.xuhaixiao.com/shop72hour/
-
-
 # Medoo-MVC新增功能
 
 #### 1.Url Rewrite (2014-08-05)
@@ -61,4 +52,3 @@ Nginx:
         rewrite ^/(.*)$ /index.php?s=$1 last;  
         }  
     }  
-较详细的说明可参见：http://www.xuhaixiao.com/urlrewrite/
